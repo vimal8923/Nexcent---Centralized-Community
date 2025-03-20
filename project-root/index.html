@@ -5,319 +5,264 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>layout2</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="consept">
-            <nav>
-                <a herf="index-2.html" aria-level="Nexcent"><img src="./assets/images/Logo.svg" alt="Nexcent logo"></a>
-                <ul role="navigation">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Community</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li class="register-button"><a href="javascript: void(0)">Register Now <img
-                                src="./assets/images/Right.svg" alt="aroow image"></a></li>
+    <header class="navbar">
+        <div class="logo">
+            <img src="./assets/images/Logo.svg" alt="Nexcent Logo">
 
-                </ul>
-            </nav>
         </div>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Community</a>
+            <a href="#">Blog</a>
+            <a href="#">Pricing</a>
+        </nav>
+        <button class="register-btn">Register Now →</button>
     </header>
-    </br>
-    <section class="panel-work">
-        <div class="section-1">
-            <div classs="bottom-left-panel">
-                <h1>
-                    <div class="upper">
-                        Lessons and insights
-                    </div>
-                    <div class="lower">
-                        from 8 years
-                    </div>
-                </h1>
-                <p>Where to grow your business as a photographer: site or social media?</p>
-                <div class="register-button">
-                    <a href="javascript: void(0)">registers</a>
-                </div>
-            </div>
-            <div class="bottom-right-panel">
-                <img src="./assets/images/image_ nexcent.svg" alt="nexcent image">
-            </div>
-            <div class="bottom-center-panel">
-                <img src="./assets/images/Dot.svg" alt="nexcent image">
-            </div>
 
-        </div>
-    </section>
-    </br>
-    </br>
-    <section class="non-pannel-work">
-        <div class="section-2">
-            <div class="bottom-center-panel">
-                <h2>Our Clients</h2>
-                <p>We have been working with some Fortune 500+ clients</p>
-            </div>
-            <div class="images-clients">
-                <ul>
-                    <li><img src="./assets/images/Logo (1).svg" alt="logo1"></li>
-                    <li><img src="./assets/images/Logo (2).svg" alt="logo2"></li>
-                    <li><img src="./assets/images/Logo (3).svg" alt="logo3"></li>
-                    <li><img src="./assets/images/Logo (4).svg" alt="logo4"></li>
-                    <li><img src="./assets/images/Logo (5).svg" alt="logo5"></li>
-                    <li><img src="./assets/images/Logo (6).svg" alt="logo6"></li>
-                    <li><img src="./assets/images/Logo (7).svg" alt="logo7"></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    </br>
-    </br>
-    <section class="non-pannel-work">
-        <div class="section-3">
-            <div class="upper-panel">
-                <h2>Manage your entire community in a single system</h2>
-                <p>Who is Nextcent suitable for?</p>
-            </div>
-            </br>
-            <div class="about-manage">
-                <div id="bottom-left-panel">
-                    <img src="./assets/images/Icon.svg" alt="icon1">
-                    <h3>Membership Organisations </h3>
-                    <p>Our membership management software provides full automation of membership renewals and payments
-                    </p>
-                </div>
-                <div id="bottom-center-panel">
-                    <img src="./assets/images/Icon (1).svg" alt="icon2">
-                    <h3>National Associations </h3>
-                    <p>Our membership management software provides full automation of membership renewals and payments
-                    </p>
-                </div>
-                <div id="bottom-right-panel">
-                    <img src="./assets/images/Icon (2).svg" alt="icon3">
-                    <h3>Clubs And Groups </h3>
-                    <p>Our membership management software provides full automation of membership renewals and payments
-                    </p>
+    <main>
+        <section class="section-1">
+            <div class="nexcent-content">
+                <h1>Lessons and insights <br> <span> from 8 years</span></h1>
+                <p>Where to grow your business as a photographer: site or social media?</p>
+                <button class="register-btn">Register</button>
+                <div class="dot">
+                    <img src="./assets/images/Dot.svg" alt="">
                 </div>
             </div>
-        </div>
-    </section>
-    </br>
-    </br>
-    </br>
-    <section class="non-pannel-work">
-        <div section="4">
-            <div class="bottom-left-panel">
-                <img src="./assets/images/image-working.svg" alt="image working">
+            <div class="nexcent-image">
+                <img src="./assets/images/image_ nexcent.svg" alt="image-nexcent">
             </div>
-            <div class="bottom-left-panel">
-                <div id="lernig-word">
+         
+        </section>
+
+        <section class="clients-section">
+            <h2>Our Clients</h2>
+            <p>We have been working with some Fortune 500+ clients</p>
+            <div class="clients-logos">
+                <img src="./assets/images/Logo (1).svg" alt="Client 1">
+                <img src="./assets/images/Logo (2).svg" alt="Client 2">
+                <img src="./assets/images/Logo (3).svg" alt="Client 3">
+                <img src="./assets/images/Logo (4).svg" alt="Client 4">
+                <img src="./assets/images/Logo (5).svg" alt="Client 5">
+                <img src="./assets/images/Logo (6).svg" alt="Client 6">
+                <img src="./assets/images/Logo (7).svg" alt="Client 7">
+            </div>
+        </section>
+        <section class="community-section">
+            <h2>Manage your entire community <br> in a single system</h2>
+            <p>Who is this platform suitable for?</p>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/images/Icon.svg" alt="Membership Icon">
+                    <h3>Membership Organisations</h3>
+                    <p>Our membership management software provides full automation of membership renewals and payments.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/Icon (1).svg" alt="National Associations Icon">
+                    <h3>National Associations</h3>
+                    <p>Our membership management software provides full automation of membership renewals and payments.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/Icon (2).svg" alt="Clubs and Groups Icon">
+                    <h3>Clubs And Groups</h3>
+                    <p>Our membership management software provides full automation of membership renewals and payments.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="non-pannel-work">
+            <div class="unlock">
+                <div class="image-container">
+                    <img src="./assets/images/image-working.svg" alt="Illustration">
+                </div>
+                <div class="text-unlock">
                     <h2>The unseen of spending three years at Pixelgrade</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan
-                        quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
-                        tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar,
-                        aliquam quam vitae, tempus sem. Donec elementum pulvinar odio</p>
-                </div>
-                <div class="register-button">
-                    <a href="javascript: void(0)">Learn More</a>
+                        quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta.</p>
+                    <a href="#" class="btn">Learn More</a>
                 </div>
             </div>
-        </div>
-    </section>
-    </br>
-    </br>
-    <section class="pannel-work">
-        <div class="section-5">
-            <div class="right-pannel">
-                <h2>
-                    <div id="upper-heading"> Helping a local </div>
-                    <div id="lower-heading">business reinvent itself </div>
-                </h2>
+        </section>
+        <section class="achievements-section">
+            <div class="text-achievements">
+                <h2>Helping a local <br> <span>business reinvent itself</span></h2>
                 <p>We reached here with our hard work and dedication</p>
             </div>
-
-            <div class="left-panel">
-                <div id="members">
-                    <img src="./assets/images/Icon (3).svg" alt="members image">
-                    <h3>2,245,341</h3>
-                    <p>members</p>
-                </div>
-                <div id="clubs">
-                    <img src="./assets/images/Icon (4).svg" alt="clubs image">
-                    <h3>46,328</h3>
-                    <p>clubs</p>
-                </div>
-
-                <div id="Event Bookings">
-                    <img src="./assets/images/Icon (4).svg" alt="Event Bookings image">
-                    <h3> 828,8672,245,341 </h3>
-                    <p>Event Bookings</p>
-                </div>
-
-                <div id="Payments">
-                    <img src="./assets/images/Icon (6).svg" alt="Paymentsimage">
-                    <h3>1,926,436 </h3>
-                    <p>Payments</p>
-                </div>
-            </div>
-    </section>
-    </br>
-    </br>
-    <section class="non-pannel-work">
-        <div class="section-6">
-            <div class="bottom-left-panel">
-                <img= src="" alt="image nexcent">
-            </div>
-            <div class="bottom-right-panel">
-                <h2>How to design your site footer like we did</h2>
-                <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa
-                    nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In
-                    hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod
-                    augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus
-                    efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec
-                    consectetur faucibus ipsum id gravida</p>
-                <div class="register-button">
-                    <a href="javascript: void(0)">learn-more</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    </br>
-    </br>
-    </br>
-
-    <section class="panel-work">
-        <div class="section-7">
-            <div class="bottom-left-panel">
-                <img src="./assets/images/image 9headphones.svg" alt="headpjone-image">
-            </div>
-            <div class="bottom-right-panel">
-                <blockquote>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum
-                    risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in,
-                    gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec
-                    molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales.
-                    Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim
-                    sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero
-                    condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</blockquote>
-                <div id="local-word">
-                    <h4>Tim Smith</h4>
-                    <p>British Dragon Boat Racing Association</p>
-                </div>
-                <div id="icon-images-to">
-                    <ul>
-                        <li><img src="./assets/images/Logo (1).svg" alt="logo1"></li>
-                        <li><img src="./assets/images/Logo (2).svg" alt="logo2"></li>
-                        <li><img src="./assets/images/Logo (3).svg" alt="logo3"></li>
-                        <li><img src="./assets/images/Logo (4).svg" alt="logo4"></li>
-                        <li><img src="./assets/images/Logo (5).svg" alt="logo5"></li>
-                        <li><img src="./assets/images/Logo (6).svg" alt="logo6"></li>
-                        <li><img src="./assets/images/Logo (7).svg" alt="logo7"></li>
-                    </ul>
-                </div>
-                <div id="meet-all customers">
-                    <a href="javascript: void(0)">Meet all customers</a> <img src="./assets/images/Right.svg"
-                        alt="right_aroow">
-                </div>
-            </div>
-        </div>
-    </section>
-    </br>
-    </br>
-    </br>
-    <section class="non-pannel-work">
-        <div class="section-8">
-            <div class="upper-heading">
-                <h2>Caring is the new marketing</h2>
-                <p> The Nextcent blog is the best place to read about the latest membership insights, trends and more.
-                    See who's joining the community, read about how our community are increasing their membership income
-                    and lot's more.</p>
-            </div>
-            <div class="costumere-reading">
-
-                <div class="bottom-left-panel">
-                    <img src="./assets/images/image 18.svg" alt="rendom-image">
-                    <p>Creating Streamlined Safeguarding Processes with OneRen</p>
-                    <div id="read-more-a">
-                        <a href="javascript: void(0)">Readmore</a> <img src="./assets/images/Right.svg"
-                            alt="right_aroow">
+            <div class="stats-achievements">
+                <div class="stat-box">
+                    <img src="./assets/images/Icon (3).svg" alt="Members">
+                    <div class="stat-info">
+                        <strong>2,245,341</strong>
+                        <span>Members</span>
                     </div>
                 </div>
-                </br>
-                <div class="bottom-center-panel">
-                    <img src="./assets/images/image 19.svg" alt="rendom-image">
-                    <p>What are your safeguarding responsibilities and how can you manage them?</p>
-                    <div id="read-more-a">
-                        <a href="javascript: void(0)">Readmore</a> <img src="./assets/images/Right.svg"
-                            alt="right_aroow">
+                <div class="stat-box">
+                    <img src="./assets/images/Icon (4).svg" alt="Clubs">
+                    <div class="stat-info">
+                        <strong>46,328</strong>
+                        <span>Clubs</span>
                     </div>
                 </div>
-                </br>
-                <div class="bottom-left-panel">
-                    <img src="./assets/images/image 20.svg" alt="rendom-image">
-                    <p>Revamping the Membership Model with Triathlon Australia</p>
-                    <div id="read-more-a">
-                        <a href="javascript: void(0)">Readmore</a> <img src="./assets/images/Right.svg"
-                            alt="right_aroow">
+                <div class="stat-box">
+                    <img src="./assets/images/Icon (5).svg" alt="Event Bookings">
+                    <div class="stat-info">
+                        <strong>828,867</strong>
+                        <span>Event Bookings</span>
+                    </div>
+                </div>
+                <div class="stat-box">
+                    <img src="./assets/images/Icon (6).svg" alt="Payments">
+                    <div class="stat-info">
+                        <strong>1,926,436</strong>
+                        <span>Payments</span>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="panel-work">
-        <div class="some-requrement">
-            <h3>Pellentesque suscipit fringilla libero eu.</h3>
-            <div class="register-button">
-                <a href="javascript: void(0)">Get a Demo</a>
-                <img src="./assets/images/Right.svg" alt="right_aroow">
-            </div>
-        </div>
-    </section>
-    </main>
-    </br>
-    </br>
-    </br>
-    </br>
-    <footer>
-        <section class="footer">
-            <div class="about-nexcent">
-                <img src="./assets/images/Logo.svg" alt="logo Nexcent">
-                <P>Copyright © 2020 Landify UI Kit.</P>
-                <P>All rights reserved</P>
-                <div>
-                    <img src="./assets/images/BG.svg" alt="social icons">
-                </div>
-            </div>
-            <div id="company">
-                <h4>company</h4>
-
-                <ul>
-                    <li><a href="javascript: void(0)">About us</a></li>
-                    <li><a href="javascript: void(0)">Blog</a></li>
-                    <li><a href="javascript: void(0)">Contact us</a></li>
-                    <li><a href="javascript: void(0)">Pricing</a></li>
-                    <li><a href="javascript: void(0)">Testimonials</a></li>
-                </ul>
-            </div>
-            <div id="Support">
-                <h4>Support</h4>
-                <ul>
-                    <li><a href="javascript: void(0)">Help center</a></li>
-                    <li><a href="javascript: void(0)">Terms of service</a></li>
-                    <li><a href="javascript: void(0)">Legal</a></li>
-                    <li><a href="javascript: void(0)">Privacy policy</a></li>
-                    <li><a href="javascript: void(0)">Status</a></li>
-                </ul>
-            </div>
-            <div id="Stay up to date">
-                <h4>Stay up to date</h4>
-                <button><a href="javascript: void(0)">Your email address</a></button>
-                <img src="./assets/images/send.svg" alt="send arrow">
-
-            </div>
-
         </section>
+        <section class="section-6">
+            <div class="site-design">
+                <div class="image-section-6">
+                    <img src="./assets/images/pana.svg" alt="">
+                </div>
+                <div class="text-section-6">
+                    <h2>How to design your site footer like we did</h2>
+                    <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie,
+                        massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices
+                        mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis
+                        finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget
+                        nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit
+                        venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-7">
+            <div class="testimonial-container">
+                <div class="image-section-7">
+                    <img src="./assets/images/image 9headphones.svg" alt="image of headphone">
+                </div>
+                <div class="text-section-7">
+                    <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
+                        tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in,
+                        gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie,
+                        nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla
+                        sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque
+                        malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget
+                        efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+                    </p>
+                    <div class="customer-name">Tim Smith</div>
+                    <div class="customer-role">British Dragon Boat Racing Association</div>
+                    <div class="client-logos">
+                        <img src="./assets/images/Logo (1).svg" alt="Client 1">
+                        <img src="./assets/images/Logo (2).svg" alt="Client 2">
+                        <img src="./assets/images/Logo (3).svg" alt="Client 3">
+                        <img src="./assets/images/Logo (4).svg" alt="Client 4">
+                        <img src="./assets/images/Logo (5).svg" alt="Client 5">
+                        <img src="./assets/images/Logo (6).svg" alt="Client 6">
+                        <img src="./assets/images/Logo (7).svg" alt="Client 7">
+                        <a href="#" class="meet-customers">Meet all customers →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-8">
+            <div class="marketing">
+                <h2>Caring is the new marketing</h2>
+                <p>The Nextcent blog is the best place to read about the latest membership insights, trends, and more.
+                    See who's joining the community...</p>
+
+                <div class="blog-section">
+                    <div class="blog-card">
+                        <img src="./assets/images/image 18.svg" alt="Blog 1">
+                        <div class="blog-content">
+                            <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
+                            <a href="#" class="readmore">Read more →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img src="./assets/images/image 19.svg" alt="Blog 2">
+                        <div class="blog-content">
+                            <h3>What are your safeguarding responsibilities and how can you manage them?</h3>
+                            <a href="#" class="readmore">Read more →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img src="./assets/images/image 20.svg" alt="Blog 3">
+                        <div class="blog-content">
+                            <h3>Revamping the Membership Model with Triathlon Australia</h3>
+                            <a href="#" class="readmore">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="panel-work">
+        <div class="footer-top">
+            <h2>Pellentesque suscipit fringilla libero eu.</h2>
+            <button class="cta-btn">Get a Demo →</button>
+        </div>
+    </section>
+    <footer class="footer">
+        
+        
+        <div class="footer-bottom">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="./assets/images/Logo2.svg" alt="Nexcent Logo">
+                </div>
+                <p>Copyright © 2020 Landify UI Kit.<br>All rights reserved</p>
+                <div class="social-icons">
+                    <a href="#"><img src="./assets/images/Social Icons insta.svg" alt="social-icons"></a>
+                    <a href="#"><img src="./assets/images/Social Icons website.svg" alt="social-icons"></a>
+                    <a href="#"><img src="./assets/images/Social Icons twiter.svg" alt="social-icons"></i></a>
+                    <a href="#"><img src="./assets/images/Social Icons youtube.svg" alt="social-icons"></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="#">About us</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Testimonials</a>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <a href="#">Help center</a>
+                    <a href="#">Terms of service</a>
+                    <a href="#">Legal</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Status</a>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Stay up to date</h4>
+                    <div class="email-box">
+                        <input type="email" placeholder="Your email address">
+                        <img src="assets/images/send.svg" alt="Send-Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
